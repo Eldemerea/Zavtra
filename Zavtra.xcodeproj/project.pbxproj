@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		044333362D8B14C300F4FFD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044333352D8B14C300F4FFD1 /* AppDelegate.swift */; };
 		044333382D8B14C300F4FFD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044333372D8B14C300F4FFD1 /* SceneDelegate.swift */; };
-		0443333A2D8B14C300F4FFD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044333392D8B14C300F4FFD1 /* ViewController.swift */; };
-		0443333D2D8B14C300F4FFD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0443333B2D8B14C300F4FFD1 /* Main.storyboard */; };
+		0443333A2D8B14C300F4FFD1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044333392D8B14C300F4FFD1 /* WelcomeViewController.swift */; };
 		044333402D8B14C300F4FFD1 /* Zavtra.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0443333E2D8B14C300F4FFD1 /* Zavtra.xcdatamodeld */; };
 		044333422D8B14C600F4FFD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044333412D8B14C600F4FFD1 /* Assets.xcassets */; };
 		044333452D8B14C600F4FFD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044333432D8B14C600F4FFD1 /* LaunchScreen.storyboard */; };
@@ -40,8 +39,7 @@
 		044333322D8B14C300F4FFD1 /* Zavtra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zavtra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044333352D8B14C300F4FFD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		044333372D8B14C300F4FFD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		044333392D8B14C300F4FFD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0443333C2D8B14C300F4FFD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044333392D8B14C300F4FFD1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		0443333F2D8B14C300F4FFD1 /* Zavtra.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zavtra.xcdatamodel; sourceTree = "<group>"; };
 		044333412D8B14C600F4FFD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044333442D8B14C600F4FFD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +101,7 @@
 			children = (
 				044333352D8B14C300F4FFD1 /* AppDelegate.swift */,
 				044333372D8B14C300F4FFD1 /* SceneDelegate.swift */,
-				044333392D8B14C300F4FFD1 /* ViewController.swift */,
-				0443333B2D8B14C300F4FFD1 /* Main.storyboard */,
+				044333392D8B14C300F4FFD1 /* WelcomeViewController.swift */,
 				044333412D8B14C600F4FFD1 /* Assets.xcassets */,
 				044333432D8B14C600F4FFD1 /* LaunchScreen.storyboard */,
 				044333462D8B14C600F4FFD1 /* Info.plist */,
@@ -236,7 +233,6 @@
 			files = (
 				044333452D8B14C600F4FFD1 /* LaunchScreen.storyboard in Resources */,
 				044333422D8B14C600F4FFD1 /* Assets.xcassets in Resources */,
-				0443333D2D8B14C300F4FFD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0443333A2D8B14C300F4FFD1 /* ViewController.swift in Sources */,
+				0443333A2D8B14C300F4FFD1 /* WelcomeViewController.swift in Sources */,
 				044333362D8B14C300F4FFD1 /* AppDelegate.swift in Sources */,
 				044333382D8B14C300F4FFD1 /* SceneDelegate.swift in Sources */,
 				044333402D8B14C300F4FFD1 /* Zavtra.xcdatamodeld in Sources */,
@@ -301,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0443333B2D8B14C300F4FFD1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0443333C2D8B14C300F4FFD1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		044333432D8B14C600F4FFD1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -451,7 +439,6 @@
 				INFOPLIST_FILE = Zavtra/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,7 +466,6 @@
 				INFOPLIST_FILE = Zavtra/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
